@@ -35,7 +35,7 @@ export default function YearlyReport() {
     entries.forEach((entry) => {
       const date = new Date(entry.date);
       const entryYear = date.getFullYear();
-      const monthIndex = date.getMonth() + 1; // 1-based (1=Jan, 12=Dec)
+      const monthIndex = date.getMonth() + 1; 
 
       if (entryYear === selectedYear) {
         if (entry.injection) {

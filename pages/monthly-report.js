@@ -136,7 +136,7 @@ export default function MonthlyReport() {
         <button onClick={printReport} style={buttonStyle}>🖨 Хэвлэх</button>
       </div>
 
-      {/* Тайлангийн хэсэг */}
+
       <div id="reportSection">
         <h3 style={{ textAlign: "center", marginBottom: "1rem" }}>{year} оны {month}-р сарын эмчилгээний тайлан</h3>
 
