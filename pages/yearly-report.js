@@ -119,7 +119,7 @@ export default function YearlyReport() {
 
   return (
     <div style={{ padding: "2rem", fontFamily: "monospace" }}>
-      <h2>Жилийн Эмчилгээний Дэлгэрэнгүй Тайлан</h2>
+      <h2>Жилийн эмчилгээний дэлгэрэнгүй тайлан</h2>
 
       <div style={{ marginBottom: "1rem" }}>
         <label>Жил сонгох: </label>
@@ -137,7 +137,7 @@ export default function YearlyReport() {
       </div>
 
       <div id="reportSection">
-        <h3 style={{ textAlign: "center", marginBottom: "1rem" }}>{year} оны Эмчилгээний Дэлгэрэнгүй Жилийн Тайлан</h3>
+        <h3 style={{ textAlign: "center", marginBottom: "1rem" }}>{year} оны эмчилгээний дэлгэрэнгүй жилийн тайлан</h3>
 
         <table id="reportTable" style={{ borderCollapse: "collapse", width: "100%" }}>
           <thead>

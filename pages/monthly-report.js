@@ -115,7 +115,7 @@ export default function MonthlyReport() {
 
   return (
     <div style={{ padding: "2rem", fontFamily: "monospace" }}>
-      <h2>Сарын Эмчилгээний Тайлан</h2>
+      <h2>Сарын эмчилгээний тайлан</h2>
 
       <div style={{ marginBottom: "1rem", display: "flex", gap: "1rem", alignItems: "center" }}>
         <select value={year} onChange={(e) => setYear(Number(e.target.value))}>

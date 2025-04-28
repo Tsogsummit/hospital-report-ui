@@ -78,7 +78,7 @@ export default function AddEntry() {
     biotens: "Биотенс",
     lymphatic_drainage_massage: "Лимфо массаж",
     electrophoresis: "Электрофорез",
-    micro_cupping: "Бичил ханьур",
+    micro_cupping: "Бичил хануур",
     oxygen: "Хүчилтөрөгч",
     surgical_bandage: "Мэс заслын боолт"
   };
@@ -87,7 +87,7 @@ export default function AddEntry() {
 
   return (
     <div style={{ padding: "2rem", fontFamily: "monospace" }}>
-      <h2>Өдөр бүрийн Эмчилгээний Мэдээлэл Нэмэх</h2>
+      <h2>Өдөр бүрийн эмчилгээний мэдээлэл нэмэх</h2>
       <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", maxWidth: "600px", margin: "auto" }}>
         <label style={cellStyle}>
           Огноо сонгох:

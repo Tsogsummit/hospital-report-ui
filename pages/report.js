@@ -79,7 +79,7 @@ export default function Report() {
 
   return (
     <div style={{ padding: "2rem", fontFamily: "monospace" }}>
-      <h2>Бүтэн Сарын Эмчилгээний Тайлан</h2>
+      <h2>Бүтэн сарын эмчилгээний тайлан</h2>
       <table style={{ borderCollapse: "collapse", width: "100%" }}>
         <thead>
           <tr style={{ backgroundColor: "#eee" }}>
